@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container2{
+width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.navbar img{
+    margin-left: 190px;
+
+}
+.navbar i{
+    margin-right: 200px;
+    font-size: 25px;
+}
+.orange{
+    width: 100%;
+    height: 400px;
+    background-color: #F0C50D;
+    position: relative;
+}
+.div-1{
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-image: url(/task/img-2/dddhre-min.jpg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+
+}
+.div-2{
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-image: url(/task/img-2/dddhre-min.jpg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+.div-3{
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-image: url(/task/img-2/dddhre-min.jpg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+
+}
+.div-4{
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-image: url(/task/img-2/dddhre-min.jpg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+}
+.blue{
+    width: 100%;
+    height: 600px;
+    background-color: #0E244B;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.div-b{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.block{
+    width: 70px;
+    height: 70px;
+    background-color: #F0C50D;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.div-b a{
+    color: gray;
+    letter-spacing: 2px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
+    padding-top: 20px;
+    color: white;
+}
+.footer p:nth-child(1){
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer span{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.block i{
+    font-size: 40px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 100;
+}
