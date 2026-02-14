@@ -5,32 +5,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="./style.css" />
   <title>Document</title>
 </head>
 
 <body>
   <div class="container-self">
+
+    <!-- HERO / NAV -->
     <div class="nav-res">
-      <div class="img"><img src="/img/charles (1).jpg" alt=""></div>
-      <div class="navbar2">
+      <div class="img">
+        <img src="/img/charles (1).jpg" alt="Charles Anderson">
+      </div>
+
+      <nav class="navbar2">
         <a href="#">HOME</a>
         <a href="#portfolio">PORTFOLIO</a>
-        <a href="#">RESUME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
-      </div>
+        <a href="#resume">RESUME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
       <div class="anderson">
         <h1 class="h1-1">Hello, I'm</h1>
         <h1 class="h1-2">Charles Anderson</h1>
-        <h6>AND THIS IS MY REZUME</h4>
+        <h6>AND THIS IS MY REZUME</h6>
       </div>
     </div>
-    <div class="main">
-      <div class="trust">
+
+    <main class="main">
+
+      <!-- TRUSTED BRANDS -->
+      <section class="trust">
         <div class="t-1">
           <p class="p-1">Trusted by <b>Leading Brands</b></p>
         </div>
+
         <div class="brands">
           <div class="g text-primary">Google</div>
           <div class="g text-info">Microsoft</div>
@@ -39,11 +50,14 @@
           <div class="g text-danger">Netflix</div>
           <div class="g text-success">Spotify</div>
         </div>
-      </div>
-      <div class="portfolio" id="portfolio">
-          <div class="t-1">
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="portfolio" id="portfolio">
+        <div class="t-1">
           <p class="p-1">Featured <b>Portfolio</b></p>
         </div>
+
         <div class="port-bar">
           <a href="#">All</a>
           <a href="#">Packaging</a>
@@ -51,45 +65,402 @@
           <a href="#">Typography</a>
           <a href="#">Photography</a>
         </div>
+
         <div class="port-divs">
           <div class="port">
-            <div><img src="https://preview.colorlib.com/theme/rezume/images/p1.webp" alt=""></div>
+            <div class="port-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/p1.webp" alt="Square Box Mockup">
+            </div>
             <div class="port-text">
               <h3>Square Box Mockup</h3>
+              <span>MOCKUP</span>
             </div>
           </div>
+
           <div class="port">
-            <img src="https://preview.colorlib.com/theme/rezume/images/p2.webp" alt="">
+            <div class="port-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/p2.webp" alt="Product Box Package Mockup">
+            </div>
             <div class="port-text">
               <h3>Product Box Package Mockup</h3>
               <span>MOCKUP</span>
             </div>
           </div>
-          <div class="port">
-            <img src="https://preview.colorlib.com/theme/rezume/images/p3.webp" alt="">
 
+          <div class="port">
+            <div class="port-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/p3.webp" alt="Creative Package Design">
+            </div>
+            <div class="port-text">
+              <h3>Square Box Mockup</h3>
+              <span>MOCKUP</span>
+            </div>
           </div>
-          <div class="port">
-            <img src="https://preview.colorlib.com/theme/rezume/images/p4.webp" alt="">
 
+          <div class="port">
+            <div class="port-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/p4.webp" alt="Typography Branding">
+            </div>
+            <div class="port-text">
+              <h3>Square Box Mockup</h3>
+              <span>MOCKUP</span>
+            </div>
           </div>
-          <div class="port">
-            <img src="https://preview.colorlib.com/theme/rezume/images/p5.webp" alt="">
 
+          <div class="port">
+            <div class="port-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/p5.webp" alt="Photography Concept">
+            </div>
+            <div class="port-text">
+              <h3>Square Box Mockup</h3>
+              <span>MOCKUP</span>
+            </div>
           </div>
-          <div class="port">
-            <img src="https://preview.colorlib.com/theme/rezume/images/p6.webp" alt="">
 
+          <div class="port">
+            <div class="port-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/p6.webp" alt="Minimal Mockup">
+            </div>
+            <div class="port-text">
+              <h3>Square Box Mockup</h3>
+              <span>MOCKUP</span>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
+      <!-- FEATURED CASES -->
+      <section class="featured-case">
+        <p class="p-1">Featured <b>Portfolio</b></p>
 
+        <div class="case-divs">
 
+          <article class="case-divs-1">
+            <div class="case-divs-pp-1"></div>
+            <p class="ux-design">UX DESIGN</p>
+            <h3 class="e-co">E-commerce Platform Redesign</h3>
+            <p class="comp">Lorem ipsum dolor</p>
+            <hr>
+            <div class="case-faiz">
+              <div class="case-faiz-1">
+                <h3>45%</h3>
+                <p>Conversion Increase</p>
+              </div>
+              <div class="case-faiz-1">
+                <h3>30%</h3>
+                <p>Less Abandonment</p>
+              </div>
+            </div>
+            <button class="case-button">VIEW CASE STUDY</button>
+          </article>
 
+          <article class="case-divs-1">
+            <div class="case-divs-pp-1"></div>
+            <p class="ux-design">UX DESIGN</p>
+            <h3 class="e-co">E-commerce Platform Redesign</h3>
+            <p class="comp">Lorem ipsum dolor</p>
+            <hr>
+            <div class="case-faiz">
+              <div class="case-faiz-1">
+                <h3>45%</h3>
+                <p>Conversion Increase</p>
+              </div>
+              <div class="case-faiz-1">
+                <h3>30%</h3>
+                <p>Less Abandonment</p>
+              </div>
+            </div>
+            <button class="case-button">VIEW CASE STUDY</button>
+          </article>
 
+          <article class="case-divs-1">
+            <div class="case-divs-pp-1"></div>
+            <p class="ux-design">UX DESIGN</p>
+            <h3 class="e-co">E-commerce Platform Redesign</h3>
+            <p class="comp">Lorem ipsum dolor</p>
+            <hr>
+            <div class="case-faiz">
+              <div class="case-faiz-1">
+                <h3>45%</h3>
+                <p>Conversion Increase</p>
+              </div>
+              <div class="case-faiz-1">
+                <h3>30%</h3>
+                <p>Less Abandonment</p>
+              </div>
+            </div>
+            <button class="case-button">VIEW CASE STUDY</button>
+          </article>
 
-    </div>
+        </div>
+      </section>
+
+      <!-- RESUME -->
+      <section class="resume" id="resume">
+        <h1>My <span>Resume</span></h1>
+
+        <div class="resume-container">
+
+          <div class="column">
+            <h2 class="edu">Education</h2>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present</span>
+              <h3>Masteral in Information Technology</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">New York University</span>
+            </div>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present December.</span>
+              <h3>Masteral in Information Technology</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">New York University</span>
+            </div>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present</span>
+              <h3>Masteral in Information Technology</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">New York University</span>
+            </div>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present December.</span>
+              <h3>Masteral in Information Technology</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">New York University</span>
+            </div>
+          </div>
+
+          <div class="column">
+            <h2 class="edu">Experience</h2>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present</span>
+              <h3>Lead Product Designer</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">Github</span>
+            </div>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present</span>
+              <h3>Lead Product Designer</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">Facebook</span>
+            </div>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present</span>
+              <h3>Lead Product Designer</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">Twitter</span>
+            </div>
+
+            <div class="card">
+              <span class="date"><i class="fa-solid fa-calendar"></i> March 2013 - Present</span>
+              <h3>Lead Product Designer</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <span class="place">Shopify</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="certa">
+        <p class="p-1 certa-p">Certifications & <b>Awards</b></p>
+
+        <div class="certa-divs">
+
+          <div class="certa-div-1">
+            <div class="a-y"><span class="award"><i class="fa-solid fa-award"></i></span></div>
+            <div class="texts-certa">
+              <p class="year">2031</p>
+              <h3>Google UX Design Professional</h3>
+              <span>Google</span>
+              <p>Comprehensive UX design certification covering user research, wireframing, prototyping, and usability testing.</p>
+            </div>
+          </div>
+
+          <div class="certa-div-1">
+            <div class="a-y"><span class="award"><i class="fa-solid fa-award"></i></span></div>
+            <div class="texts-certa">
+              <p class="year">2030</p>
+              <h3>Awwwards Site of the Day</h3>
+              <span>Awwwards</span>
+              <p>Recognized for exceptional web design, creativity, and user experience on the TechFlow project.</p>
+            </div>
+          </div>
+
+          <div class="certa-div-1">
+            <div class="a-y"><span class="award"><i class="fa-solid fa-award"></i></span></div>
+            <div class="texts-certa">
+              <p class="year">2029</p>
+              <h3>AWS Certified Solutions</h3>
+              <span>AWS</span>
+              <p>Professional certification for designing distributed systems and deploying scalable applications on AWS.</p>
+            </div>
+          </div>
+
+          <div class="certa-div-1">
+            <div class="a-y"><span class="award"><i class="fa-solid fa-award"></i></span></div>
+            <div class="texts-certa">
+              <p class="year">2028</p>
+              <h3>CSS Design Awards - Best UI</h3>
+              <span>CSS Design Awards</span>
+              <p>Winner of Best UI Design for innovative interface design on the Bloom Finance dashboard project.</p>
+            </div>
+          </div>
+
+          <div class="certa-div-1">
+            <div class="a-y"><span class="award"><i class="fa-solid fa-award"></i></span></div>
+            <div class="texts-certa">
+              <p class="year">2027</p>
+              <h3>Meta Front-End Developer</h3>
+              <span>Meta</span>
+              <p>Professional certification in modern front-end development including React, responsive design, and accessibility.</p>
+            </div>
+          </div>
+
+          <div class="certa-div-1">
+            <div class="a-y"><span class="award"><i class="fa-solid fa-award"></i></span></div>
+            <div class="texts-certa">
+              <p class="year">2026</p>
+              <h3>Red Dot Design Award</h3>
+              <span>Red Dot Design</span>
+              <p>International recognition for outstanding product design and visual communication excellence.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="/img/charles (1).jpg" alt="Charles Anderson portrait">
+        </div>
+
+        <div class="about-p">
+          <p class="p-1">About <b>Me</b></p>
+          <h4>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h4>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+          <div class="about-buttom">
+            <div class="about-button1">
+              <button class="button1">HIRE ME</button>
+            </div>
+            <div class="about-buttom2">
+              <button class="button2">DOWNLOAD CV</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="comments" id="">
+        <p class="p-1 p-10">Client <b>Testimonial</b></p>
+
+        <div class="comment-divs">
+
+          <article class="comment-1">
+            <div class="comment-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/person_1.webp" alt="Ethan McCown">
+            </div>
+            <div class="comment-text">
+              <p class="com-p">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+              <div class="comment-meta">
+                <p class="com-p">— Ethan McCown, CEO</p>
+                <p class="xyz">XYZ Inc.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="comment-1">
+            <div class="comment-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/person_2.webp" alt="Ethan McCown">
+            </div>
+            <div class="comment-text">
+              <p class="com-p">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+              <div class="comment-meta">
+                <p class="com-p">— Ethan McCown, CEO</p>
+                <p class="xyz">XYZ Inc.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="comment-1">
+            <div class="comment-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/person_3.webp" alt="Ethan McCown">
+            </div>
+            <div class="comment-text">
+              <p class="com-p">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+              <div class="comment-meta">
+                <p class="com-p">— Ethan McCown, CEO</p>
+                <p class="xyz">XYZ Inc.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="comment-1">
+            <div class="comment-img">
+              <img src="https://preview.colorlib.com/theme/rezume/images/person_4.webp" alt="Ethan McCown">
+            </div>
+            <div class="comment-text">
+              <p class="com-p">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+              <div class="comment-meta">
+                <p class="com-p">— Ethan McCown, CEO</p>
+                <p class="xyz">XYZ Inc.</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+      <!-- Services -->
+       <section class="services">
+        <p class="p-1 p-10">My <b>Services</b></p>
+        <div class="service-divs">
+          <div class="ser-1">
+            <div class="ser-icon">
+              <span><i class="fa-brands fa-microsoft"></i></span>
+            </div>
+            <h3>Web Design</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div class="learn-button">
+              <p>Learn More</p>
+              <p>></p>
+            </div>
+          </div>
+
+          <div class="ser-2">
+            <div class="ser-icon">
+              <span><i class="fa-solid fa-desktop"></i></span>
+            </div>
+            <h3>Search Engine Optimization</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <div class="learn-button-2">
+              <p>Learn More</p>
+              <p>></p>
+            </div>
+          </div>
+
+          <div class="ser-1">
+            <div class="ser-icon">
+              <span><i class="fa-solid fa-clapperboard"></i></span>
+            </div>
+            <h3>Video Editing</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+            <div class="learn-button">
+              <p>Learn More</p>
+              <p>></p>
+            </div>
+          </div>
+        </div>
+       </section>
+    </main>
   </div>
 </body>
 
